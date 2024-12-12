@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Online Škola</title>
+</head>
+<body bgcolor="#39CCCC" text="#333333" marginwidth="0" marginheight="0">
+
+    <header>
+        <table width="100%" bgcolor="#001f3f" cellpadding="20"> <!-- Navy -->
+            <tr>
+                <td align="center" colspan="5">
+                    <h1><font color="white">Kontaktirajte nas</font></h1>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" bgcolor="#001f3f" cellpadding="10"> <!-- Navy -->
+            <tr>
+                <td align="center" width="20%">
+                    <a href="index.html"><font color="white">Početna</font></a>
+                </td>
+                <td align="center" width="20%">
+                    <a href="onama.html"><font color="white">O nama</font></a>
+                </td>
+                <td align="center" width="20%">
+                    <a href="galerija.html"><font color="white">Galerija</font></a>
+                </td>
+                <td align="center" width="20%">
+                    <a href="profesori.html"><font color="white">Profesori</font></a>
+                </td>
+                <td align="center" width="20%">
+                    <a href="kontakt.html"><font color="white">Kontakt</font></a>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <main>
+        <h2><font color="#001f3f" padding="20px">Kontaktirajte nas</font></h2>
+        <p><font color="#333333">Želite li stupiti u kontakt s nama? Ispunite obrazac u nastavku i javit ćemo vam se u najkraćem mogućem roku!</font></p>
+
+        <form action="submit_form.php" method="POST" bgcolor="#FFFFFF" cellpadding="20">
+            <label for="ime"><font color="#001f3f">Ime:</font></label>
+            <input type="text" id="ime" name="ime" required bgcolor="#FFFFFF" border="1" bordercolor="#ccc" padding="10px">
+
+            <label for="prezime"><font color="#001f3f">Prezime:</font></label>
+            <input type="text" id="prezime" name="prezime" required bgcolor="#FFFFFF" border="1" bordercolor="#ccc" padding="10px">
+
+            <label for="email"><font color="#001f3f">Email:</font></label>
+            <input type="email" id="email" name="email" required bgcolor="#FFFFFF" border="1" bordercolor="#ccc" padding="10px">
+
+            <label for="telefon"><font color="#001f3f">Broj telefona:</font></label>
+            <input type="tel" id="telefon" name="telefon" required bgcolor="#FFFFFF" border="1" bordercolor="#ccc" padding="10px">
+
+            <label for="poruka"><font color="#001f3f">Što želite pitati?</font></label>
+            <textarea id="poruka" name="poruka" required bgcolor="#FFFFFF" border="1" bordercolor="#ccc" padding="10px" height="150px"></textarea>
+
+            <button type="submit" bgcolor="#001f3f" color="white" padding="10px 20px" border="none" borderradius="5px"><font color="white">Pošaljite</font></button>
+        </form>
+    </main>
+
+    <footer>
+        <table width="100%" bgcolor="#001f3f" cellpadding="10"> <!-- Navy -->
+            <tr>
+                <td align="center">
+                    <span><font color="white">Online Škola &copy; 2024</font></span>
+                </td>
+            </tr>
+        </table>
+    </footer>
+
+</body>
+</html>
